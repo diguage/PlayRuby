@@ -16,11 +16,11 @@ puts "I said: #{x}."
 puts "I also said: '#{y}'." # 从这个例子来看，在Ruby中，无论是单双引号，都可以字符串插值插掉
 
 hilarious = false
-joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
+joke_evaluation = "Isn't that joke so funny?! #{hilarious}" # 测试boolean值的输出
 
 puts joke_evaluation
 
 w = "This is the left side of.."
 e = "a string with a right side."
 
-puts w + e
+puts w + e  # 测试字符串相连
