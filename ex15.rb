@@ -1,10 +1,10 @@
 filename = ARGV.first
 
 prompt = "> "
-txt = File.open(filename)
+txt = File.open(filename)  # 打开文件
 
 puts "Here's your file: #{filename}"
-puts txt.read()
+puts txt.read()  # 读取文件内容
 
 puts "Type the filename again: "
 print prompt
