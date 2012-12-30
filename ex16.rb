@@ -22,12 +22,14 @@ print "line 3:"; line3 = STDIN.gets.chomp()
 
 puts "I'm going to write these to the file."
 
-target.write(line1);
-target.write("\n");
-target.write(line2);
-target.write("\n");
-target.write(line3);
-target.write("\n");
+# 使用格式化字符串和转义字符减少重复代码
+target.write("%s\n%s\n%s\n" % [line1, line2, line3]);
+# target.write(line1);
+# target.write("\n");
+# target.write(line2);
+# target.write("\n");
+# target.write(line3);
+# target.write("\n");
 
 puts "And finally, we close it."
 target.close()
