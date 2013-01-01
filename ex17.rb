@@ -1,6 +1,8 @@
 from_file, to_file = ARGV
 script = 50
 
+puts "Copying from #{ARGV[0]} to #{ARGV[1]}"
+
 puts "Copying from #{from_file} to #{to_file}"
 
 # we could do these two on one line too, how?
