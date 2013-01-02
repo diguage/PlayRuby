@@ -18,13 +18,13 @@ for i in change
 end
 
 # We can alse build arrays, first start with an empty one
-elements = []
+elements = (1..10) # 可以这样声明数组
 
 # then use a range object to do 0 to 5 count
 for i in (0..5)
 	puts "Adding #{i} to the list."
 	# push is a function that arrays understand
-	elements.push(i)
+	#elements.push(i)
 end
 
 # now we can puts them out too
