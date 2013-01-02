@@ -10,7 +10,7 @@ end
 
 def multiply(a, b)
 	puts "MULTIPLYINT #{a} * #{b}"
-	return a * b
+	return a * b  # 从这里看出，Ruby中可以return关键字可有可无。但是在什么情况下必须有呢？怎么确定返回的值呢？
 end
 
 def divide(a, b)
