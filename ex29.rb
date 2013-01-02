@@ -30,5 +30,8 @@ end
 
 if people == dogs
 	puts "People are dogs."
+	puts "Test if"
+	puts "Test if"
+	puts "Test if"
 end
 
