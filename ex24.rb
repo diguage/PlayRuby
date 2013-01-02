@@ -33,4 +33,5 @@ start_point /= 10
 puts "we can also do that this way:"
 puts "We'd have %s beans, %s jars, and %s crates." % secret_formula(start_point)
 
+puts "Array Elements: #{secret_formula(start_point)}" 
 
