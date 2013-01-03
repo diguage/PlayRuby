@@ -1,11 +1,11 @@
-def whileLoop (max)
+def whileLoop (max, step)
 	i = 0
 	numbers = []
 	while i < max
 		puts "At the top i is #{i}"
 		numbers.push(i)
 	
-		i += 1
+		i += step
 		puts "Numbers now: #{numbers}"
 		puts "At the bottom i is #{i}"
 	end
@@ -17,4 +17,4 @@ def whileLoop (max)
 	end
 end 
 
-whileLoop(8) 
+whileLoop(8, 2) 
